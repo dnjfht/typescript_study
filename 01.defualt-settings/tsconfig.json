@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "rootDir": "01.defualt-settings/src",
+    "outDir": "./build/js",
+    "target": "ES6",
+    "noEmitOnError": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "lib": ["ESNext", "DOM"],
+    "strict": true
+  },
+  "include": ["01.defualt-settings/src/**/*.ts"]
+}
