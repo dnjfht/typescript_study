@@ -107,6 +107,11 @@ makeFullName({ firstName: "John", lastName: "Doe", location: "Seoul" });
 //   const [state] = useState<{name: string | null}>({name: ""});
 //   // useState도 보면 generic Type을 받고 있는데,
 //   // 초기값이 어떻게 될지 모르기 때문에, generic으로 Type을 줄 수 있다.
+//   // 그런데 사실 초기값을 지정해주면 알아서 타입을 유추하기 때문에 굳이 지정해주지 않아도 무방하다.
+
+//   // 다만, 다음과 같은 경우에는 Generics을 사용하는 것이 좋다.
+//   // 1. 상태가 null일 수도 있고 아닐수도 있을때
+//   // 2. 상태의 타입이 까다로운 구조를 가진 객체이거나 배열일 때
 
 //   state.name
 
